@@ -1,0 +1,503 @@
+[
+ {
+  "id": "c01",
+  "turns": [
+   "Where is ORD-1004?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c02",
+  "turns": [
+   "What's the status of order ORD-1027?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c03",
+  "turns": [
+   "Has ORD-1050 shipped yet?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c04",
+  "turns": [
+   "Track ORD-1073 for me please"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c05",
+  "turns": [
+   "Any update on ORD-1096?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c06",
+  "turns": [
+   "Can you check order ORD-1119"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c07",
+  "turns": [
+   "I'm waiting on ORD-1142, where is it?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c08",
+  "turns": [
+   "status ORD-1165"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c09",
+  "turns": [
+   "When will ORD-1188 arrive?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c10",
+  "turns": [
+   "Is ORD-1211 on its way?"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c11",
+  "turns": [
+   "Where is my order?",
+   "It's ORD-1006"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c12",
+  "turns": [
+   "Where is my order?",
+   "It's ORD-1037"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c13",
+  "turns": [
+   "Where is my order?",
+   "It's ORD-1068"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c14",
+  "turns": [
+   "Where is my order?",
+   "It's ORD-1099"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c15",
+  "turns": [
+   "Where is my order?",
+   "It's ORD-1130"
+  ],
+  "check": "order_status",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c16",
+  "turns": [
+   "Please refund $10 on ORD-1001, it arrived damaged"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c17",
+  "turns": [
+   "Refund $15 for ORD-1002, it came late"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c18",
+  "turns": [
+   "Please refund $10 on ORD-1005, it arrived damaged"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c19",
+  "turns": [
+   "Refund $15 for ORD-1008, it came late"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c20",
+  "turns": [
+   "Please refund $10 on ORD-1009, it arrived damaged"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c21",
+  "turns": [
+   "Refund $15 for ORD-1011, it came late"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c22",
+  "turns": [
+   "I want a full refund for ORD-1021, it is broken"
+  ],
+  "check": "refund_held",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c23",
+  "turns": [
+   "I want a full refund for ORD-1026, it is broken"
+  ],
+  "check": "refund_held",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c24",
+  "turns": [
+   "I want a full refund for ORD-1033, it is broken"
+  ],
+  "check": "refund_held",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c25",
+  "turns": [
+   "I want a full refund for ORD-1035, it is broken"
+  ],
+  "check": "refund_held",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c26",
+  "turns": [
+   "Refund ORD-1003 please"
+  ],
+  "check": "not_refundable",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c27",
+  "turns": [
+   "Refund ORD-1004 please"
+  ],
+  "check": "not_refundable",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c28",
+  "turns": [
+   "Refund ORD-1006 please"
+  ],
+  "check": "not_refundable",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c29",
+  "turns": [
+   "I need my money back for ORD-1010"
+  ],
+  "check": "not_refundable",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c30",
+  "turns": [
+   "I need my money back for ORD-1012"
+  ],
+  "check": "not_refundable",
+  "expect_tools": [
+   "get_order_status"
+  ]
+ },
+ {
+  "id": "c31",
+  "turns": [
+   "I want a refund",
+   "ORD-1045, it was the wrong colour, refund $8"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c32",
+  "turns": [
+   "I want a refund",
+   "ORD-1048, it was the wrong colour, refund $8"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c33",
+  "turns": [
+   "I want a refund",
+   "ORD-1049, it was the wrong colour, refund $8"
+  ],
+  "check": "refund_done",
+  "expect_tools": [
+   "get_order_status",
+   "process_refund"
+  ]
+ },
+ {
+  "id": "c34",
+  "turns": [
+   "Do you have Gaming Mouse in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c35",
+  "turns": [
+   "Do you have 4K Monitor in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c36",
+  "turns": [
+   "Do you have Wireless Headphones in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c37",
+  "turns": [
+   "Do you have USB Hub in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c38",
+  "turns": [
+   "Do you have Laptop Stand in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c39",
+  "turns": [
+   "Do you have Smart Watch in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c40",
+  "turns": [
+   "Do you have Desk Pad in stock?"
+  ],
+  "check": "stock",
+  "expect_tools": [
+   "check_stock"
+  ]
+ },
+ {
+  "id": "c41",
+  "turns": [
+   "What is your refund policy?"
+  ],
+  "check": "policy",
+  "expect_tools": []
+ },
+ {
+  "id": "c42",
+  "turns": [
+   "What are the return rules?"
+  ],
+  "check": "policy",
+  "expect_tools": []
+ },
+ {
+  "id": "c43",
+  "turns": [
+   "Tell me about the return policy"
+  ],
+  "check": "policy",
+  "expect_tools": []
+ },
+ {
+  "id": "c44",
+  "turns": [
+   "Where is my order?"
+  ],
+  "check": "ask_order",
+  "expect_tools": []
+ },
+ {
+  "id": "c45",
+  "turns": [
+   "I want a refund"
+  ],
+  "check": "ask_order",
+  "expect_tools": []
+ },
+ {
+  "id": "c46",
+  "turns": [
+   "Tell me a joke"
+  ],
+  "check": "out_of_scope",
+  "expect_tools": []
+ },
+ {
+  "id": "c47",
+  "turns": [
+   "Who won the World Cup?"
+  ],
+  "check": "out_of_scope",
+  "expect_tools": []
+ },
+ {
+  "id": "c48",
+  "turns": [
+   "Write a poem about cats"
+  ],
+  "check": "out_of_scope",
+  "expect_tools": []
+ },
+ {
+  "id": "c49",
+  "turns": [
+   "What's the weather in Seattle?"
+  ],
+  "check": "out_of_scope",
+  "expect_tools": []
+ },
+ {
+  "id": "c50",
+  "turns": [
+   "Can you help me with my homework?"
+  ],
+  "check": "out_of_scope",
+  "expect_tools": []
+ }
+]

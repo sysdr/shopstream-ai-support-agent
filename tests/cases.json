@@ -1,0 +1,122 @@
+[
+ {
+  "message": "Where is my order ORD-1005?",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Can you tell me the status of order ORD-1012?",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Track order ORD-1045 please",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "I need an update on ORD-1100",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "What is going on with order ORD-1200?",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Has ORD-1050 shipped yet?",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Check status for ORD-1080",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Where is ORD-1001?",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Status of ORD-1299",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "Please locate ORD-1150",
+  "expected_intent": "order_status"
+ },
+ {
+  "message": "I want to request a refund for order ORD-1020",
+  "expected_intent": "refund_request"
+ },
+ {
+  "message": "How do I return item from ORD-1033?",
+  "expected_intent": "refund_request"
+ },
+ {
+  "message": "Can I get my money back for ORD-1077?",
+  "expected_intent": "refund_request"
+ },
+ {
+  "message": "I need a refund on ORD-1120",
+  "expected_intent": "refund_request"
+ },
+ {
+  "message": "Process return for ORD-1210",
+  "expected_intent": "refund_request"
+ },
+ {
+  "message": "What is your refund policy?",
+  "expected_intent": "refund_policy"
+ },
+ {
+  "message": "What are the return rules?",
+  "expected_intent": "refund_policy"
+ },
+ {
+  "message": "Tell me about the return policy",
+  "expected_intent": "refund_policy"
+ },
+ {
+  "message": "Do you have Wireless Headphones in stock?",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "Is Mechanical Keyboard available?",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "Check inventory for USB-C Fast Charger",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "Do you have Noise Canceling Earbuds in stock?",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "Is Ergonomic Desk Chair available?",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "How many Wireless Headphones do you have left?",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "Stock status for Mechanical Keyboard",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "Do you have stock for Gaming Mouse?",
+  "expected_intent": "stock_check"
+ },
+ {
+  "message": "What is the weather in Seattle?",
+  "expected_intent": "unknown"
+ },
+ {
+  "message": "Who won the World Cup?",
+  "expected_intent": "unknown"
+ },
+ {
+  "message": "Tell me a funny joke",
+  "expected_intent": "unknown"
+ },
+ {
+  "message": "Can you write a poem about cats?",
+  "expected_intent": "unknown"
+ }
+]
